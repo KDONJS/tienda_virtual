@@ -1,21 +1,25 @@
-<?php 
+<?php
 	const BASE_URL = "http://localhost/tienda_virtual";
-	//const BASE_URL = "https://abelosh.com/tiendavirtual";
 
 	//Zona horaria
-	date_default_timezone_set('America/Guatemala');
+	date_default_timezone_set('Perú/Guatemala');
 
 	//Datos de conexión a Base de Datos
-	const DB_HOST = "localhost";
-	const DB_NAME = "db_tiendavirtual";
-	const DB_USER = "root";
-	const DB_PASSWORD = "";
-	const DB_CHARSET = "utf8";
+	// const DB_HOST = "localhost";
+	// const DB_NAME = "db_tiendavirtual";
+	// const DB_USER = "root";
+	// const DB_PASSWORD = "";
+	// const DB_CHARSET = "utf8";
+
+		//Datos de conexión a Base de Datos
+		const DB_HOST = "localhost";
+		const DB_NAME = "fqsgadrf_bd_tiendaVirtual";
+		const DB_USER = "fqsgadrf_tiendaVirtual";
+		const DB_PASSWORD = "Tato2407";
+		const DB_CHARSET = "utf8";
 
 	//Para envío de correo
-	const ENVIRONMENT = 1; // Local: 0, Produccón: 1;
-
-	//Deliminadores decimal y millar Ej. 24,1989.00
+	const ENVIRONMENT = 1;
 	const SPD = ".";
 	const SPM = ",";
 
@@ -44,10 +48,10 @@
 
 	//Datos Empresa
 	const DIRECCION = "avenida primavera surco lima perú";
-	const TELEMPRESA = "9999999";
-	const WHATSAPP = "99999999";
+	const TELEMPRESA = "98888888";
+	const WHATSAPP = "88899999";
 	const EMAIL_EMPRESA = "info@leones.com";
-	const EMAIL_PEDIDOS = "info@leones.com"; 
+	const EMAIL_PEDIDOS = "info@leones.com";
 	const EMAIL_SUSCRIPCION = "info@leones.com";
 	const EMAIL_CONTACTO = "info@leones.com";
 
@@ -100,6 +104,6 @@
 	//REDES SOCIALES
 	const FACEBOOK = "#";
 	const INSTAGRAM = "#";
-	
+
 
  ?>
