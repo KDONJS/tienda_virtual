@@ -1,5 +1,5 @@
 <?php
-	const BASE_URL = "http://localhost/tienda_virtual";
+	const BASE_URL = "https://clubleoneslegadoylinaje.com/tienda_virtual";
 
 	//Zona horaria
 	date_default_timezone_set('Perú/Guatemala');
