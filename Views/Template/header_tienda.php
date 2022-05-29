@@ -146,7 +146,7 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li class="active-menu">
-								<a href="<?= base_url(); ?>">Inicio</a>
+								<a href="<?= base_url(); ?>">Inicio 1</a>
 							</li>
 
 							<li>
